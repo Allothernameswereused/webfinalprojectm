@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Компания</title>
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css"/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Шапка сайта -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="wrapper animate__animated animate__fadeIn">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo animate__animated  animate__fadeInLeft" /></a>
+                    <h1 class="title">УСТАНОВКА И РЕМОНТ 
+                        ПЛАСТИКОВЫХ ОКОН
+                        В ЕКАТЕРИНБУРГЕ</h1>
+                    <h1 class="phone">+7-800-555-35-35</h1>
+                    <button type="button"  class="order btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <p class="order_text">Заказать обратный звонок</p> <p class="order-text txt2">Звонок</p>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Шапка со ссылками на разделы сайта -->
+        <section class="categories">
+            <div class="container">
+                <div class="wrapper">
+                    <div class =".col-xs-6 .col-sm-4 catleft">
+                        <a href=index.html><p class="category_text"> Главная</p></a>
+                    </div>
+                    <div class =".col-xs-6 .col-sm-4">
+                        <a href=products.html> <p class="category_text">Продукция</p></a>
+                    </div>
+                    <div class =".col-xs-6 .col-sm-4 catright">
+                        <a href=about.html><p class="category_text">О нас</p></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- Блок представления с картинкой на фоне -->
+        <section class="introduction animate__animated  animate__fadeInLeft">
+            <div class="container introcontent">
+                <img src="img/background.jpg" class="intro_photo"/> 
+                <p class="introtext">Установка и ремонт пластиковых окон в Екатеринбурге и Свердловской области</p>
+                <!-- Форма заказа обратного звонка, находится в углу -->
+                <div class="call_order">
+                    <p class="input_title title-big">Ваше имя</p>
+                    <p class="input_title title-big phone_title">Ваш телефон</p>
+                    <form action="#" class="call_engineer">
+                        <p class="input_title title-big spacing">Закажите обратный звонок!</p>
+                        <div class="spacing">
+                        <br/>
+                        </div>
+                        <input type="text" class="input" name="name" placeholder = "Алексей" id="name" required>
+                        <div class="spacing">
+                            <br/>
+                        </div>
+                        <input type="tel" class="input phone-input" name="phone" id="phone" placeholder="х-xxx-xxx-xx-хx"pattern= "\d{1}[-]\d{3}[-]\d{3}[-]\d{3}[-]\d{3}" required>
+                        <div class="spacing">
+                            <br/>
+                        </div>
+                        <input type="submit" class="input send" value="ЗАКАЗАТЬ ЗВОНОК">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Блоки преимуществ -->
+        <section class="advantages">
+            <div class="container">
+                <h1 class="headline">
+                    Наши преимущества
+                </h1>
+                <h1 class="subheadline">
+                    Почему стоит обратиться к нам?
+                </h1>
+                <div class="advent_content">
+                    <div class="advent-block">
+                        <h1 class="advent-header">Бесплатный выезд мастера</h1>
+                        <p class="advent-text advent_short">Мастер может приехать в течение 1-2 часов после оставления заявки</p>
+                    </div>
+                    <div class="advent-block">
+                        <h1 class="advent-header">Качественные материалы</h1>
+                        <p class="advent-text">Мы используем только качественные стеклопакеты и алюминиевые конструкции собственного производства</p>
+                    </div>
+                    <div class="advent-block">
+                        <h1 class="advent-header">Рассрочка 0%</h1>
+                        <p class="advent-text advent_short">Заказывайте нашу продукцию в рссрочку до 24 месяцев без переплаты и первоначального взноса</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Форма вызова инженера -->
+        <section class="engineer">
+            <div class="container">
+                <div class="wrapper">
+                <!-- Левая колонка, поля формы -->
+                <div class="col-xs-6 col-md-6 engineer-half animate__animated  animate__fadeInLeft">
+                    <h1 class="form-header">Хотите узнать точную стоимость? Запишитесь на бесплатный замер!</h1>
+                    <form action="#" class="engineer-call">
+                        <input type="text" class="alt-input" name="name" placeholder="ВАШЕ ИМЯ" required>
+                        <input type="text" class="alt-input" name="tel" placeholder="ВАШ ТЕЛЕФОН" required>
+                        <input type="text" class="alt-input" name="address" placeholder="ВАШ АДРЕС" required>
+                        <div>
+                            <span id="order-engineer" class="alt-send">
+                                <p class="button-txt">Заказать</p>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Правая колонка, изображение -->
+                <div class="col-xs-6 col-md-6 engineer-half rightcol animate__animated  animate__fadeInRight">
+                    <img src="img/engineer2.png" class="engineer-image"/>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- Дублёр заголовка страницы с контактными данными -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="wrapper animate__animated animate__fadeIn">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo animate__animated  animate__fadeInLeft" /></a>
+                    <h1 class="title">УСТАНОВКА И РЕМОНТ 
+                        ПЛАСТИКОВЫХ ОКОН
+                        В ЕКАТЕРИНБУРГЕ</h1>
+                    <h1 class="phone">+7-800-555-35-35</h1>
+                    <button type="button"  class="order btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <p class="order_text">Заказать обратный звонок</p> <p class="order-text txt2">Звонок</p>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Всплывающее окно с вызовом мастера -->
+        <section class = "pop-up">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content re-call">
+                  <div class="modal-header re-call-edge">
+                    <h5 class="modal-title re-call-title" id="exampleModalLabel">Заказать обратный звонок</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- Заполняемая форма -->
+                  <div class="modal-body">
+                    <form action="#">
+                    <p class="re-call-text">Ваше Имя:</p>
+                    <input type="text" class="alt-input re-call-input" name="name" placeholder="Алексей" required>
+                    <p class="re-call-text">Ваш телефон:</p>
+                    <input type="text" class="alt-input re-call-input" name="tel" placeholder="х-xxx-xxx-xx-хx"pattern= "\d{1}[-]\d{3}[-]\d{3}[-]\d{3}[-]\d{3}"  required>
+                    <p class="re-call-text">Когда вам удобнее?</p>
+                    <input type="time" class="re-call-input" id="appt" name="appt" min="09:00" max="18:00" required>
+                  </div>
+                  <div class="modal-footer re-call-edge">
+                    <button type="submit" class="btn btn-primary modal-send"><p class ="re-call-button">ЗАКАЗАТЬ</p></button>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer_text">© 2021, все права защищены</p>
+            </div>
+        </footer>
+    </body>
+</html>

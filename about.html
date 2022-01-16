@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>О компании</title>
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css"/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Шапка сайта -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="wrapper animate__animated animate__fadeIn">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo animate__animated  animate__fadeInLeft" /></a>
+                    <h1 class="title">УСТАНОВКА И РЕМОНТ 
+                        ПЛАСТИКОВЫХ ОКОН
+                        В ЕКАТЕРИНБУРГЕ</h1>
+                    <h1 class="phone">+7-800-555-35-35</h1>
+                    <button type="button"  class="order btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <p class="order_text">Заказать обратный звонок</p> <p class="order-text txt2">Звонок</p>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Шапка со ссылками на разделы сайта -->
+        <section class="categories">
+            <div class="container">
+                <div class="wrapper">
+                    <div class =".col-xs-6 .col-sm-4 catleft">
+                        <a href=index.html><p class="category_text"> Главная</p></a>
+                    </div>
+                    <div class =".col-xs-6 .col-sm-4">
+                        <a href=products.html> <p class="category_text">Продукция</p></a>
+                    </div>
+                    <div class =".col-xs-6 .col-sm-4 catright">
+                        <a href=about.html><p class="category_text">О нас</p></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- Содержимое страницы -->
+         <section class="about">
+             <div class="container">
+                 <div class="wrapper">
+                     <!-- Левая колонка, текст описания -->
+                    <div class="col-xs-6 col-md-6 about-content animate__animated  animate__fadeInLeft">
+                        <h1 class="headline about-header">
+                            Diamond Екатеринбург
+                        </h1>
+                        <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed dolor faucibus, fermentum mi et, vulputate ipsum. Proin ac vestibulum erat. Vestibulum imperdiet nulla urna. Pellentesque elit justo, dapibus ut rutrum et, venenatis ut libero. Proin viverra ex nulla, sit amet iaculis velit vehicula vitae. Sed interdum euismod blandit. Maecenas lacus mi, laoreet vitae semper ac, egestas nec nulla. Curabitur sit amet sagittis urna, nec rhoncus massa. Suspendisse ut maximus metus. </p>
+                        <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed dolor faucibus, fermentum mi et, vulputate ipsum. Proin ac vestibulum erat. Vestibulum imperdiet nulla urna. Pellentesque elit justo, dapibus ut rutrum et, venenatis ut libero. Proin viverra ex nulla, sit amet iaculis velit vehicula vitae. Sed interdum euismod blandit. Maecenas lacus mi, laoreet vitae semper ac, egestas nec nulla. Curabitur sit amet sagittis urna, nec rhoncus massa. Suspendisse ut maximus metus. </p>
+                    </div>
+                    <!-- Правая колонка, изображение -->
+                    <div class="col-xs-6 col-md-6 about-content rightcol animate__animated  animate__fadeInRight">
+                        <img src="img/office.jpg" class="about-picture"/>
+                    </div>
+                 </div>
+             </div>
+         </section>
+         <!-- Полоса со статистикой компании -->
+         <section class="categories about-categories">
+             <div class="container">
+                 <div class="wrapper bottomwrap">
+                    <div class="about-section">
+                        <p class="about-stats">2002</p>
+                        <p class="about-subtext">Год основания</p>
+                    </div>
+                    <div class="about-section">
+                        <p class="about-stats">240 000</p>
+                        <p class="about-subtext">Клиентов за 18 лет работы</p>
+                    </div>
+                    <div class="about-section">
+                        <p class="about-stats">1 400 000</p>
+                        <p class="about-subtext">Пластиковых окон установлено</p>
+                    </div>
+                    <div class="about-section">
+                        <p class="about-stats percent">87%</p>
+                        <p class="about-subtext percent">Клиентов готовы нас рекомендовать</p>
+                    </div>
+                 </div>
+             </div>
+         </section>
+         <!-- Всплывающее окно с вызовом мастера -->
+		 <section class = "pop-up">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content re-call">
+                  <div class="modal-header re-call-edge">
+                    <h5 class="modal-title re-call-title" id="exampleModalLabel">Заказать обратный звонок</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- Заполняемая форма -->
+                  <div class="modal-body">
+                    <form action="#">
+                    <p class="re-call-text">Ваше Имя:</p>
+                    <input type="text" class="alt-input re-call-input" name="name" placeholder="Алексей" required>
+                    <p class="re-call-text">Ваш телефон:</p>
+                    <input type="text" class="alt-input re-call-input" name="tel" placeholder="х-xxx-xxx-xx-хx"pattern= "\d{1}[-]\d{3}[-]\d{3}[-]\d{3}[-]\d{3}"  required>
+                    <p class="re-call-text">Когда вам удобнее?</p>
+                    <input type="time" class="re-call-input" id="appt" name="appt" min="09:00" max="18:00" required>
+                  </div>
+                  <div class="modal-footer re-call-edge">
+                    <button type="submit" class="btn btn-primary modal-send">ЗАКАЗАТЬ</button>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer_text">© 2021, все права защищены</p>
+            </div>
+        </footer>
+    </body>
+</html>
